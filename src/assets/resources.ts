@@ -3,6 +3,7 @@ interface Resource {
     slug: string;
     description: string;
     links: string[];
+    thumb: string;
 }
 
 export const resources: Resource[] = [
@@ -17,7 +18,8 @@ export const resources: Resource[] = [
             'https://vimeo.com/782305247',
             'https://vimeo.com/782305255',
             'https://vimeo.com/782305276'
-        ]
+        ],
+        thumb: 'coolerscreens.png'
     },
     {
         title: 'Time Machine 2022 Demo Intro',
@@ -25,7 +27,8 @@ export const resources: Resource[] = [
         description: `I was tasked with creating 8 introductory teasers for SparkCognition's yearly AI conference. I was given assets made in line with our Cognitive Cubism branding. The structure and design of the video evolved along with the requirements of the project. I used After Effects Expressions (JavaScript) to create a template to automate what might have been a tedious and repetitive task and save time.`,
         links: [
             'https://vimeo.com/694659882'
-        ]
+        ],
+        thumb: './thumbs/tm22.png'
     },
     {
         title: 'Shein',
@@ -33,7 +36,8 @@ export const resources: Resource[] = [
         description: `Motion graphics created for 4-episode SheIN X digital fashion  competition show. Create a flexible lower thirds template according to client brand guidelines. Animated opening title graphic. Created 2-minute countdown video. Created animated supers. Created "premium" look lower thirds template for final episode.`,
         links: [
             'https://vimeo.com/594881234'
-        ]
+        ],
+        thumb: './thumbs/shein.png'
     },
     {
         title: 'Modernizing Medicine',
@@ -41,7 +45,8 @@ export const resources: Resource[] = [
         description: `Explainer for Modernizing Medicine, a software company creating solutions for healthcare technology. I created the illustrations using the style from previously made videos and aligning with Modmed's brand guidelines. I collaborated with the art director/video editor to incorporate screenflows. The video was used for Modmed's annual conference, Momentum, to demonstrate their Pay product.`,
         links: [
             'https://vimeo.com/656758262'
-        ]
+        ],
+        thumb: './thumbs/modmed.png'
     },
     {
         title: 'AI to Z',
@@ -49,7 +54,8 @@ export const resources: Resource[] = [
         description: 'Video for AI to Z social media marketing campaign, showing the many applications of artificial intelligence.',
         links: [
             'https://vimeo.com/656751905'
-        ]
+        ],
+        thumb: './thumbs/aitoz.png'
     },
     {
         title: 'Omega',
@@ -57,7 +63,8 @@ export const resources: Resource[] = [
         description: 'Animatic for the opening scene of short story OMEGA, about hypothetical future war in Europe between Russian and NATO forces using advanced technology. Read the full story here: (https://www.atlanticcouncil.org/blogs/natosource/omega/).',
         links: [
             'https://vimeo.com/656759349'
-        ]
+        ],
+        thumb: './thumbs/omega.png'
     },
     {
         title: 'Supply Chain',
@@ -66,7 +73,8 @@ export const resources: Resource[] = [
         links: [
             'https://vimeo.com/445592691',
             'https://vimeo.com/449338795'
-        ]
+        ],
+        thumb: './thumbs/supplychain.png'
     },
     {
         title: 'Progress',
@@ -74,7 +82,8 @@ export const resources: Resource[] = [
         description: 'Typography-based video promoting the use of artificial intelligence technology to move the world forward.',
         links: [
             'https://vimeo.com/656764120'
-        ]
+        ],
+        thumb: './thumbs/progress.png'
     },
     {
         title: 'Time Machine 2020 Intro',
@@ -82,7 +91,8 @@ export const resources: Resource[] = [
         description: 'Worked closely with a fellow designer to produce this video introducing Time Machine, Artificial Intelligence conference.',
         links: [
             'https://vimeo.com/465254777'
-        ]
+        ],
+        thumb: './thumbs/tm20.png'
     },
     {
         title: 'Particle Demo',
@@ -90,7 +100,8 @@ export const resources: Resource[] = [
         description: 'Demo video showing the use of Trapcode Form plugin to create abstract motion graphics for SparkCognition.',
         links: [
             'https://vimeo.com/465532478'
-        ]
+        ],
+        thumb: './thumbs/particle.png'
     },
     {
         title: 'Lower Thirds',
@@ -98,7 +109,8 @@ export const resources: Resource[] = [
         description: 'Corporate lower thirds animations. Created flexible templates for easy use.',
         links: [
             'https://vimeo.com/570394854'
-        ]
+        ],
+        thumb: './thumbs/l3.png'
     },
     {
         title: 'Toast',
@@ -106,6 +118,7 @@ export const resources: Resource[] = [
         description: 'A short video on the concept of priming. Responsible for every stage from concept, scripting and storyboard to illustration and sound design.',
         links: [
             'https://vimeo.com/335949201'
-        ]
+        ],
+        thumb: './thumbs/toast.png'
     }
 ]
