@@ -1,29 +1,28 @@
-export const ImageGrid = () => {
-  const images = Array(12).fill(null).map((_, index) => ({
-    id: index + 1,
-    src: `/api/placeholder/300/300`,
-    alt: `Placeholder ${index + 1}`,
-    link: `https://example.com/image/${index + 1}`
-  }));
+import { Link } from "react-router-dom";
+import { Resource } from '../assets/resources'; // imports interface
 
+interface ImageGridProps {
+  resources: Resource[];
+}
+
+export const ImageGrid: React.FC<ImageGridProps> = ({ resources }) => {
   return (
-    <div className="container mx-auto px-4">
-      <div className="grid grid-cols-3 gap-4">
-        {images.map((image) => (
-          <a
-            key={image.id}
-            href={image.link}
-            className="block aspect-square overflow-hidden"
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 m-5">
+        {resources.map((resource, index) => (
+          <Link to={`/${resource.slug}`} key={index}>
+          <div
+            className="block overflow-hidden aspect-w-1 aspect-h-1 max-w-96 max-h-96"
           >
             <img
-              src={image.src}
-              alt={image.alt}
-              className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
+              src={new URL(`${resource.thumb}`, import.meta.url).href}
+              alt={resource.alt}
+              className="object-cover w-full h-full"
             />
-          </a>
+            <p>{resource.title}</p>
+          </div>
+          </Link>
         ))}
       </div>
-    </div>
   );
 };
 

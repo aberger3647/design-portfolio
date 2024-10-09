@@ -1,9 +1,10 @@
-interface Resource {
+export interface Resource {
     title: string;
     slug: string;
     description: string;
     links: string[];
     thumb: string;
+    alt: string;
 }
 
 export const resources: Resource[] = [
@@ -19,7 +20,8 @@ export const resources: Resource[] = [
             'https://vimeo.com/782305255',
             'https://vimeo.com/782305276'
         ],
-        thumb: 'coolerscreens.png'
+        thumb: '../assets/thumbs/coolerscreens.png',
+        alt: 'Cooler Screens thumbnail'
     },
     {
         title: 'Time Machine 2022 Demo Intro',
@@ -28,7 +30,8 @@ export const resources: Resource[] = [
         links: [
             'https://vimeo.com/694659882'
         ],
-        thumb: './thumbs/tm22.png'
+        thumb: '../assets/thumbs/tm22.png',
+        alt: 'Time Machine 2022 thumbnail'
     },
     {
         title: 'Shein',
@@ -37,7 +40,8 @@ export const resources: Resource[] = [
         links: [
             'https://vimeo.com/594881234'
         ],
-        thumb: './thumbs/shein.png'
+        thumb: '../assets/thumbs/shein.png',
+        alt: 'Shein thumbnail'
     },
     {
         title: 'Modernizing Medicine',
@@ -46,7 +50,8 @@ export const resources: Resource[] = [
         links: [
             'https://vimeo.com/656758262'
         ],
-        thumb: './thumbs/modmed.png'
+        thumb: '../assets/thumbs/modmed.png',
+        alt: 'Mod Med thumbnail'
     },
     {
         title: 'AI to Z',
@@ -55,7 +60,8 @@ export const resources: Resource[] = [
         links: [
             'https://vimeo.com/656751905'
         ],
-        thumb: './thumbs/aitoz.png'
+        thumb: '../assets/thumbs/aitoz.png',
+        alt: 'AI to Z thumbnail'
     },
     {
         title: 'Omega',
@@ -64,7 +70,8 @@ export const resources: Resource[] = [
         links: [
             'https://vimeo.com/656759349'
         ],
-        thumb: './thumbs/omega.png'
+        thumb: '../assets/thumbs/omega.png',
+        alt: 'Omega thumbnail'
     },
     {
         title: 'Supply Chain',
@@ -74,7 +81,8 @@ export const resources: Resource[] = [
             'https://vimeo.com/445592691',
             'https://vimeo.com/449338795'
         ],
-        thumb: './thumbs/supplychain.png'
+        thumb: '../assets/thumbs/supplychain.png',
+        alt: 'Supply Chain thumbnail'
     },
     {
         title: 'Progress',
@@ -83,7 +91,8 @@ export const resources: Resource[] = [
         links: [
             'https://vimeo.com/656764120'
         ],
-        thumb: './thumbs/progress.png'
+        thumb: '../assets/thumbs/progress.png',
+        alt: 'Progress thumbnail'
     },
     {
         title: 'Time Machine 2020 Intro',
@@ -92,7 +101,8 @@ export const resources: Resource[] = [
         links: [
             'https://vimeo.com/465254777'
         ],
-        thumb: './thumbs/tm20.png'
+        thumb: '../assets/thumbs/tm20.png',
+        alt: 'Time Machine 2020 thumbnail'
     },
     {
         title: 'Particle Demo',
@@ -101,7 +111,8 @@ export const resources: Resource[] = [
         links: [
             'https://vimeo.com/465532478'
         ],
-        thumb: './thumbs/particle.png'
+        thumb: '../assets/thumbs/particle.png',
+        alt: 'Particle Demo thumbnail'
     },
     {
         title: 'Lower Thirds',
@@ -110,7 +121,8 @@ export const resources: Resource[] = [
         links: [
             'https://vimeo.com/570394854'
         ],
-        thumb: './thumbs/l3.png'
+        thumb: '../assets/thumbs/l3.png',
+        alt: 'Lower Thirds thumbnail'
     },
     {
         title: 'Toast',
@@ -119,6 +131,7 @@ export const resources: Resource[] = [
         links: [
             'https://vimeo.com/335949201'
         ],
-        thumb: './thumbs/toast.png'
+        thumb: '../assets/thumbs/toast.png',
+        alt: 'Toast thumbnail'
     }
 ]
