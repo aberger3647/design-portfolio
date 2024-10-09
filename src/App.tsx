@@ -29,7 +29,7 @@ function App() {
             {resources.map((resource) => (
               <Route
                 path={`/${resource.slug}`}
-                element={<Detail />}
+                element={<Detail resource={resource} />}
                 key={resource.title}
               />
             ))}

@@ -1,5 +1,5 @@
 export const Illustration = () => {
   return (
-      <p>illustration</p>
+      <main></main>
   );
 };

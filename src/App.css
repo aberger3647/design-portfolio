@@ -25,7 +25,7 @@ body, html{
   height: 100%; 
   scroll-behavior: smooth; 
 }
-.main{
+main{
   display: flex;
   flex-direction: column;
   align-items: center;

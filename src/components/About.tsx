@@ -2,10 +2,10 @@ import headshot from "../assets/headshotsmall.jpg";
 
 export const About = () => {
   return (
-    <div className="main">
+    <main>
       <div className="flex sm:flex-row flex-col">
       <div className="max-w-96 sm:mr-4 mb-4">
-          <img src={headshot} alt="Black and white headshot of Alex" />
+          <img src={new URL(`${headshot}`, import.meta.url).href} alt="Black and white headshot of Alex" />
         </div>
 
         <div className="max-w-96">
@@ -32,6 +32,6 @@ export const About = () => {
           <p>Contact: aberger3647@gmail.com</p>
         </div>
       </div>
-    </div>
+    </main>
   );
 };

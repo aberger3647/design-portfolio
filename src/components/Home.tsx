@@ -8,11 +8,11 @@ interface HomeProps {
 
 export const Home: React.FC<HomeProps> = ({ resources }) => {
   return (
-      <div className='main'>
+      <main>
         <h1>Demo Reel</h1>
-       <ReactPlayer url='https://vimeo.com/714168862' controls light />
+       <ReactPlayer url='https://vimeo.com/714168862' controls />
       
       <ImageGrid resources={resources}/>
-      </div>
+      </main>
   );
 };
