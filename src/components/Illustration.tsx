@@ -46,7 +46,7 @@ export const Illustration = () => {
         columnClassName="my-masonry-grid_column"
       >
         {images.map((image) => (
-          <img src={`src/assets/illustration/${image}`} key={image} />
+          <img src={new URL(`../assets/illustration/${image}`, import.meta.url).href} key={image} />
         ))}
       </Masonry>
     </main>
