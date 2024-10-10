@@ -44,7 +44,6 @@ export const Illustration = () => {
         breakpointCols={breakpoints}
         className="my-masonry-grid"
         columnClassName="my-masonry-grid_column"
-        fitWidth={true}
       >
         {images.map((image) => (
           <img src={`src/assets/illustration/${image}`} key={image} />
