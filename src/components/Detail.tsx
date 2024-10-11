@@ -13,8 +13,8 @@ export const Detail: React.FC<ImageGridProps> = ({ resource }) => {
       <p className="sm:w-1/2 my-4 text-center">{resource.description}</p>
       
           {resource.links.map((link) => (
-      <div className="sm:w-11/12 w-full">
-        <div className="relative pt-3 aspect-video absoulute top-0 left-0 w-full h-full">
+      <div className="sm:w-9/12 w-full">
+        <div className="relative pt-3 aspect-video top-0 left-0 w-full h-full">
           <Iframe
             url={link}
             className="w-full h-full"
