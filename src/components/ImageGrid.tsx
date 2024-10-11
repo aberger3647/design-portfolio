@@ -14,7 +14,7 @@ export const ImageGrid: React.FC<ImageGridProps> = ({ resources }) => {
             className="block overflow-hidden aspect-w-1 aspect-h-1 max-w-96 max-h-96"
           >
             <img
-              src={new URL(`${resource.thumb}`, import.meta.url).href}
+              src={new URL(`../assets/thumbs/${resource.thumb}`, import.meta.url).href}
               alt={resource.alt}
               className="object-cover w-full h-full"
             />

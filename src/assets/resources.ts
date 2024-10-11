@@ -20,7 +20,7 @@ export const resources: Resource[] = [
             'https://player.vimeo.com/video/782305255',
             'https://player.vimeo.com/video/782305276'
         ],
-        thumb: '../assets/thumbs/coolerscreens.png',
+        thumb: 'coolerscreens.png',
         alt: 'Cooler Screens thumbnail'
     },
     {
@@ -30,7 +30,7 @@ export const resources: Resource[] = [
         links: [
             'https://player.vimeo.com/video/694659882'
         ],
-        thumb: '../assets/thumbs/tm22.png',
+        thumb: 'tm22.png',
         alt: 'Time Machine 2022 thumbnail'
     },
     {
@@ -40,7 +40,7 @@ export const resources: Resource[] = [
         links: [
             'https://player.vimeo.com/video/594881234'
         ],
-        thumb: '../assets/thumbs/shein.png',
+        thumb: 'shein.png',
         alt: 'Shein thumbnail'
     },
     {
@@ -50,7 +50,7 @@ export const resources: Resource[] = [
         links: [
             'https://player.vimeo.com/video/656758262'
         ],
-        thumb: '../assets/thumbs/modmed.png',
+        thumb: 'modmed.png',
         alt: 'Mod Med thumbnail'
     },
     {
@@ -60,7 +60,7 @@ export const resources: Resource[] = [
         links: [
             'https://player.vimeo.com/video/656751905'
         ],
-        thumb: '../assets/thumbs/aitoz.png',
+        thumb: 'aitoz.png',
         alt: 'AI to Z thumbnail'
     },
     {
@@ -70,7 +70,7 @@ export const resources: Resource[] = [
         links: [
             'https://player.vimeo.com/video/656759349'
         ],
-        thumb: '../assets/thumbs/omega.png',
+        thumb: 'omega.png',
         alt: 'Omega thumbnail'
     },
     {
@@ -81,7 +81,7 @@ export const resources: Resource[] = [
             'https://player.vimeo.com/video/445592691',
             'https://player.vimeo.com/video/449338795'
         ],
-        thumb: '../assets/thumbs/supplychain.png',
+        thumb: 'supplychain.png',
         alt: 'Supply Chain thumbnail'
     },
     {
@@ -91,7 +91,7 @@ export const resources: Resource[] = [
         links: [
             'https://player.vimeo.com/video/656764120'
         ],
-        thumb: '../assets/thumbs/progress.png',
+        thumb: 'progress.png',
         alt: 'Progress thumbnail'
     },
     {
@@ -101,7 +101,7 @@ export const resources: Resource[] = [
         links: [
             'https://player.vimeo.com/video/465254777'
         ],
-        thumb: '../assets/thumbs/tm20.png',
+        thumb: 'tm20.png',
         alt: 'Time Machine 2020 thumbnail'
     },
     {
@@ -111,7 +111,7 @@ export const resources: Resource[] = [
         links: [
             'https://player.vimeo.com/video/465532478'
         ],
-        thumb: '../assets/thumbs/particle.png',
+        thumb: 'particle.png',
         alt: 'Particle Demo thumbnail'
     },
     {
@@ -121,7 +121,7 @@ export const resources: Resource[] = [
         links: [
             'https://player.vimeo.com/video/570394854'
         ],
-        thumb: '../assets/thumbs/l3.png',
+        thumb: 'l3.png',
         alt: 'Lower Thirds thumbnail'
     },
     {
@@ -131,7 +131,7 @@ export const resources: Resource[] = [
         links: [
             'https://player.vimeo.com/video/335949201'
         ],
-        thumb: '../assets/thumbs/toast.png',
+        thumb: 'toast.png',
         alt: 'Toast thumbnail'
     }
 ]
