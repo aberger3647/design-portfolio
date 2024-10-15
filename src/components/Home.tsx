@@ -9,7 +9,6 @@ interface HomeProps {
 export const Home: React.FC<HomeProps> = ({ resources }) => {
   return (
       <main>
-        <h1>Demo Reel</h1>
 
        <div className="sm:w-11/12 w-full">
         <div className="relative pt-3 aspect-video absoulute top-0 left-0 w-full h-full">
