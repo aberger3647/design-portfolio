@@ -8,9 +8,15 @@ export interface DevResource {
 export const devresources: DevResource[] = [
     {
         title: 'Ghostbusters',
-        description: 'A dating app that allows users to review dates. Contributed to visual design, front-end, and back-end code. Tools used: React, Express.js, Node.js, MongoDB, and Cloudinary.',
+        description: 'A dating app that allows users to review dates. Contributed to visual design, front-end, and back-end code. Tools used: React, Express.js, Node.js, MongoDB, GraphQL, and Cloudinary.',
         video: 'https://player.vimeo.com/video/1028067692',
         github: 'https://github.com/aberger3647/ghostbusters'
+    },
+    {
+        title: 'Clevercart',
+        description: 'A smart shopping list app that learns your buying habits and helps you remember what you might need to buy on y our next trip to the store. Wrote unit tests for components, resulting in a 25% increase in test coverage. Handled differend UI states such as loading, errors, and success with and without data. Led discussions around application design. Tools used: React, Firebase',
+        video: 'https://player.vimeo.com/video/1026231078',
+        github: 'https://github.com/the-collab-lab/tcl-67-smart-shopping-list'
     },
     {
         title: 'Plant Parenthood',

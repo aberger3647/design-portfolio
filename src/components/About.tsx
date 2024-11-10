@@ -1,4 +1,5 @@
 import headshot from "../assets/headshotsmall.jpg";
+import { Link } from "react-router-dom";
 
 export const About = () => {
   return (
@@ -25,11 +26,15 @@ export const About = () => {
           <p>As a developer, I use React, Express, Node, MongoDB, JavaScript, TypeScript, MySQL and many other frameworks/libraries to transform my designs into fully-functioning full-stack applications.</p>
           <br />
           <p>
-            When I'm not finessing the graph editor or coding, I am <a href='https://www.bigalstrength.com/' target='_blank'>training
+            When I'm not finessing the graph editor or coding, I am <a href='https://www.bigalstrength.com/' target='_blank' className='text-lime-400 hover:text-lime-500'>training
             myself and others at the gym</a>.
           </p>
           <br />
           <p>Contact: aberger3647@gmail.com</p>
+          <br />
+          <a href='https://www.linkedin.com/in/alexjberger/' target='_blank' className='block w-fit text-lime-400 hover:text-lime-500'>LinkedIn</a>
+          <a href='https://github.com/aberger3647/' target='_blank' className='block w-fit text-lime-400 hover:text-lime-500'>GitHub</a>
+          <Link to='/resume' className='block w-fit text-lime-400 hover:text-lime-500'>Resume</Link>
         </div>
       </div>
     </main>

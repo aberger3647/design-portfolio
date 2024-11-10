@@ -6,3 +6,4 @@ export * from "./Illustration";
 export * from "./ImageGrid";
 export * from './Detail';
 export * from './Development';
+export * from './Resume';

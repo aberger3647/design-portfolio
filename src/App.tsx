@@ -4,7 +4,7 @@ import {
   Routes,
   Outlet,
 } from "react-router-dom";
-import { Nav, Home, About, Detail, Illustration, Development } from "./components";
+import { Nav, Home, About, Detail, Illustration, Development, Resume } from "./components";
 import "./App.css"
 import { resources } from "./assets/resources";
 import { devresources } from './assets/devresources';
@@ -35,6 +35,7 @@ function App() {
               />
             ))}
           <Route path='/development' element={<Development devresources={devresources} />} />
+          <Route path='/resume' element={<Resume />} />
           </Route>
         </Routes>
       </Router>

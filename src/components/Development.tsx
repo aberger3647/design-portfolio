@@ -8,11 +8,11 @@ interface DevelopmentProps {
 export const Development: React.FC<DevelopmentProps> = ({ devresources }) => {
   return (
     <main>
-        {devresources.map((resource) => (
+        {devresources.map((resource, index) => (
           <>
-            <h2 className="text-center text-3xl">{resource.title}</h2>
+            <h2 className="text-center text-2xl">{resource.title}</h2>
             <p className="sm:w-1/2 my-4 text-center">{resource.description}</p>
-            <a className='block text-center' href={resource.github} target="_blank">
+            <a className='block text-center text-lime-400 hover:text-lime-500' href={resource.github} target="_blank">
               GitHub Repository
             </a>
             <div className="sm:w-9/12 w-full">
@@ -24,6 +24,7 @@ export const Development: React.FC<DevelopmentProps> = ({ devresources }) => {
                 ></Iframe>
               </div>
             </div>
+            {index !== devresources.length - 1 && <hr className='my-8 border-gray-300 border-1 w-full'/>}
           </>
         ))}
     </main>
