@@ -1,7 +1,7 @@
 export const Resume = () => {
   return (
     <main>
-      <div className="sm:w-[1000px] sm:h-[1300px]">
+      <div className="sm:w-[1000px] sm:h-[1300px] w-[390px] h-[844px]">
         <iframe
           title="AlexBergerResume"
           className="w-full h-full border bg-white"
