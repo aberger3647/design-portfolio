@@ -66,7 +66,7 @@ export const resources: Resource[] = [
     {
         title: 'Omega',
         slug: 'omega',
-        description: 'Animatic for the opening scene of short story OMEGA, about hypothetical future war in Europe between Russian and NATO forces using advanced technology. Read the full story here: (https://www.atlanticcouncil.org/blogs/natosource/omega/).',
+        description: 'Animatic for the opening scene of short story OMEGA, about hypothetical future war in Europe between Russian and NATO forces using advanced technology.',
         links: [
             'https://player.vimeo.com/video/656759349'
         ],
