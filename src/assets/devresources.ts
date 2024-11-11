@@ -9,7 +9,7 @@ export const devresources: DevResource[] = [
     {
         title: 'Ghostbusters',
         description: 'A dating app that allows users to review dates. Contributed to visual design, front-end, and back-end code. Tools used: React, Express.js, Node.js, MongoDB, GraphQL, and Cloudinary.',
-        video: 'https://player.vimeo.com/video/1028067692',
+        video: 'https://player.vimeo.com/video/1028257230',
         github: 'https://github.com/aberger3647/ghostbusters'
     },
     {
