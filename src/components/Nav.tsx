@@ -10,8 +10,8 @@ interface NavLinksProps {
 const NavLinks = ({ isMobile, toggleNavbar }: NavLinksProps) => {
   return (
     <>
-        <li className={`${isMobile ? 'w-full border-b py-3' : ''}`}><NavLink to='/development' className={`${isMobile ? 'block text-center' : ''}`} onClick={toggleNavbar}>Web Development</NavLink></li>
-        <li className={`${isMobile ? 'w-full border-b py-3' : ''}`}><NavLink to='/' className={`${isMobile ? 'block text-center' : ''}`} onClick={toggleNavbar}>Motion Design</NavLink></li>
+        <li className={`${isMobile ? 'w-full border-b py-3' : ''}`}><NavLink to='/' className={`${isMobile ? 'block text-center' : ''}`} onClick={toggleNavbar}>Web Development</NavLink></li>
+        <li className={`${isMobile ? 'w-full border-b py-3' : ''}`}><NavLink to='/design' className={`${isMobile ? 'block text-center' : ''}`} onClick={toggleNavbar}>Motion Design</NavLink></li>
         <li className={`${isMobile ? 'w-full border-b py-3' : ''}`}><NavLink to='/illustration' className={`${isMobile ? 'block text-center' : ''}`} onClick={toggleNavbar}>Illustration</NavLink></li>
         <li className={`${isMobile ? 'w-full border-b py-3' : ''}`}><NavLink to='/about' className={`${isMobile ? 'block text-center' : ''}`} onClick={toggleNavbar}>About</NavLink></li>
     </>
