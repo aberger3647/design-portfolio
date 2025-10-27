@@ -1,50 +1,52 @@
-# React + TypeScript + Vite
+# 🎨 alexberger.dev
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Showcasing motion design, illustration, and web design work.**
 
-Currently, two official plugins are available:
+🔗 **Live site:** [**alexberger.dev**](https://alexberger.dev)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🪐 Overview
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+**alexberger.dev** is a personal portfolio site built to highlight creative and technical projects — including motion design, illustration, and web development work.  
+It provides an engaging, minimal interface where potential employers and collaborators can explore selected pieces and learn more about your design process.
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 👥 Who It’s For
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- 🧑‍💼 **Employers** looking for a creative professional  
+- 🤝 **Collaborators** interested in design or web projects  
+- 🎨 Anyone curious about motion, illustration, or digital storytelling  
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+---
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## 💻 Tech Stack
+
+- ⚛️ **React + TypeScript + Vite** — fast, modern front end  
+- 🎨 **Tailwind CSS** — sleek, responsive design system  
+- 🧱 **React Masonry** — dynamic illustration grid layout  
+
+---
+
+## 🌎 How It Works
+
+1. Visit **[alexberger.dev](https://alexberger.dev)**  
+2. Browse **motion, illustration, and web projects**  
+3. Explore the **illustration grid**, powered by **React Masonry**  
+4. Reach out via the site to **connect or collaborate**  
+
+---
+
+## ✨ Features
+
+- 🌗 Clean, minimalist design  
+- 📱 Fully responsive layout  
+- 🎞️ Animated transitions and motion design highlights  
+- 🖼️ Masonry grid for artwork and illustrations  
+
+---
+
+## 🪄 License
+
+This project is licensed under the **MIT License**.
