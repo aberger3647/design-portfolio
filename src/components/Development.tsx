@@ -10,13 +10,17 @@ export const Development: React.FC<DevelopmentProps> = ({ devresources }) => {
     <main>
         {devresources.map((resource, index) => (
           <>
-            <h2 className="text-center text-2xl">{resource.title}</h2>
-            <p className="sm:w-1/2 my-4 text-center">{resource.description}</p>
+            <h2 className="my-4 text-2xl text-center">{resource.title}</h2>
+            <p className="text-center sm:w-1/2">{resource.description}</p>
+            <p className="text-sm text-center sm:w-1/2">Tech Stack: {resource.stack}</p>
             <a className='block text-center text-lime-400 hover:text-lime-500' href={resource.github} target="_blank">
               GitHub Repository
             </a>
-            <div className="sm:w-9/12 w-full">
-              <div className="relative pt-3 aspect-video top-0 left-0 w-full h-full mb-8">
+                        <a className='block text-center text-lime-400 hover:text-lime-500' href={resource.link} target="_blank">
+              Live Site
+            </a>
+            <div className="w-full sm:w-9/12">
+              <div className="relative top-0 left-0 w-full h-full pt-3 mb-8 aspect-video">
                 <Iframe
                   url={resource.video}
                   className="w-full h-full"
@@ -24,7 +28,7 @@ export const Development: React.FC<DevelopmentProps> = ({ devresources }) => {
                 ></Iframe>
               </div>
             </div>
-            {index !== devresources.length - 1 && <hr className='my-8 border-gray-300 border-1 w-full'/>}
+            {index !== devresources.length - 1 && <hr className='w-full my-8 border-gray-300 border-1'/>}
           </>
         ))}
     </main>
